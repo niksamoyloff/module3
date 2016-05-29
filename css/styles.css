@@ -1,0 +1,90 @@
+
+body {
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+	color: black;
+	padding: 15px;
+	padding-top: 20px;
+}
+h1 {
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.row {
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.conteiner-fluid {
+	width: 90%;
+	height: 1000px;
+	margin-top: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 16px;
+	background-color: #c1c1c1;
+	overflow: hidden;
+	position: center;
+}
+
+.food {
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+	margin: 0;	
+}
+.navbar-brand {
+	padding-top: 15px;
+	height: auto;
+}
+.navbar-brand h1 {
+	color: black;
+	text-align: left;
+	font-size: 1.7em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 20px;
+}
+
+.navbar-brand a {
+	text-decoration: none;
+}
+.navbar-header {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#header-nav {
+	background-color: #808080;
+	border-radius: 0;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+}
+	
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
